@@ -1,0 +1,45 @@
+table, tr, td, th
+     {
+     	border:1px solid black;
+     	border-collapse: collapse;
+     	padding: 5px;
+     	width:50%;
+     	text-align: center;
+     }
+
+tr:nth-child(even)
+    {
+    	background-color: #d29985;
+    	font-family: 'Merienda', cursive;
+    }
+
+tr:nth-child(odd)
+     {
+     	background-color: #c98276;
+     	font-family: 'Merienda', cursive;
+     }
+
+th
+     {
+     	background-color: #dbac98;
+     	font-family: 'Merienda', cursive;
+     }
+
+tr:hover 
+     {
+     	background-color: #e35d6a;
+     }     
+
+ol
+     {
+     	font-family: 'Merienda', cursive;
+     }
+
+ul
+     {
+     	font-family: 'Merienda', cursive;
+     }     
+p
+     {
+     	font-family: 'Caveat', cursive;
+     }     
